@@ -10,7 +10,7 @@ import br.inatel.pos.mobile.dm110.interfaces.PollerRemote;
 @RequestScoped
 public class PollerServiceImpl implements PollerService {
 
-	@EJB(lookup = "java:app/dm110-ejb-1.0.0-SNAPSHOT/PollerBean!br.inatel.pos.mobile.dm110.interfaces.PollerRemote")
+	@EJB(lookup = "java:app/dm110-ejb-0.1-SNAPSHOT/PollerBean!br.inatel.pos.mobile.dm110.interfaces.PollerRemote")
 	private PollerRemote pollerBean;
 
 	@Override
